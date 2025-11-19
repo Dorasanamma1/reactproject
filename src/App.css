@@ -1,0 +1,55 @@
+/* NAVBAR */
+.navbar {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: linear-gradient(to right, #e8f0ff, #ffffff);
+  border-bottom: 3px solid #5b8dff;
+  padding: 14px 0;
+  display: flex;
+  justify-content: center;
+  gap: 28px;
+  box-shadow: 0 4px 15px rgba(0, 60, 255, 0.12);
+  z-index: 999;
+}
+
+/* NAV BUTTONS */
+.nav-btn {
+  padding: 10px 24px;
+  font-size: 17px;
+  color: #0b3bbf;
+  background: #dce6ff;
+  border-radius: 10px;
+  border: 2px solid #7da4ff;
+  text-decoration: none;
+  font-weight: 600;
+  transition: .3s ease;
+}
+
+/* HOVER EFFECT – Advanced */
+.nav-btn:hover {
+  background: #4c7cff;
+  color: white;
+  border-color: #2453d9;
+  box-shadow: 0 4px 12px rgba(0, 60, 255, 0.25);
+  transform: translateY(-3px);
+}
+
+/* ACTIVE LINK (Home/Veg/Nonveg highlight) */
+.active-link {
+  background: #ba4cff !important;
+  color: white !important;
+  border-color: #24d94e7e !important;
+  box-shadow: 0 4px 12px rgba(0, 60, 255, 0.25);
+}
+
+/* PAGE BOX */
+.page-container {
+  margin-top: 110px;
+  padding: 20px;
+  background: hsl(25, 60%, 78%) !important;
+  color: white !important;
+  border-color: #78ce8c7e !important;
+  box-shadow: 0 4px 12px rgba(103, 121, 179, 0.25);
+}
