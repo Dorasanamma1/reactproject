@@ -66,8 +66,8 @@ function App() {
 
       <div className="page-container">
         <Routes>
-          <Route index element={<Home />} />
-          <Route path="/home" element={<Home />} />
+          
+          <Route path="/" element={<Home />} />
           <Route path="/veg" element={<Veg />} />
           <Route path="/nonveg" element={<Nonveg />} />
           <Route path="/cooldrinks" element={<Cooldrinks/>} />
