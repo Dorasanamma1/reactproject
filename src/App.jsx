@@ -22,7 +22,7 @@ function App() {
           className={({ isActive }) =>
             isActive ? "nav-btn active-link" : "nav-btn"
           }
-          to="/home"
+          to="/"
         >
           Home
         </NavLink>
