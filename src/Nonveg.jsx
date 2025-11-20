@@ -3,7 +3,7 @@ import { addToCart } from './store';
 import './Veg.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-function Nonveg() {
+function nonveg() {
   let nonvegitems = [
     {
       id: 1,
@@ -70,4 +70,4 @@ function Nonveg() {
   );
 }
 
-export default Nonveg;
+export default nonveg;

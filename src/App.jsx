@@ -1,18 +1,24 @@
 import { BrowserRouter, NavLink, Route, Routes } from "react-router-dom";
 import "./App.css";
-import Home from "./Home";
-import Veg from "./Veg";
-import Nonveg from "./Nonveg";
+
 import { useSelector } from "react-redux";
-import Cart from "./cart";
+
+// Import components (files are lowercase)
+import Home from "./home";
+import Veg from "./veg";
+import Nonveg from "./nonveg";
 import Cooldrinks from "./cooldrinks";
+import Cart from "./cart";
 
 function App() {
   // Get cart items from Redux
   const cartitems = useSelector((state) => state.cart);
 
   // Total quantity in cart
-  const cartcount = cartitems.reduce((total, item) => total + item.quantity, 0);
+  const cartcount = cartitems.reduce(
+    (total, item) => total + item.quantity,
+    0
+  );
 
   return (
     <BrowserRouter>
@@ -66,14 +72,11 @@ function App() {
 
       <div className="page-container">
         <Routes>
-          
           <Route path="/" element={<Home />} />
           <Route path="/veg" element={<Veg />} />
           <Route path="/nonveg" element={<Nonveg />} />
-          <Route path="/cooldrinks" element={<Cooldrinks/>} />
-
-          {/* Add Cart Page Route (create Cart.jsx file) */}
-          <Route path="/cart" element={<Cart/>}/>
+          <Route path="/cooldrinks" element={<Cooldrinks />} />
+          <Route path="/cart" element={<Cart />} />
         </Routes>
       </div>
     </BrowserRouter>
