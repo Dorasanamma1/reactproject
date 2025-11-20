@@ -4,11 +4,11 @@ import "./App.css";
 import { useSelector } from "react-redux";
 
 // Import components (files are lowercase)
-import Home from "./home";
-import Veg from "./veg";
-import Nonveg from "./nonveg";
-import Cooldrinks from "./cooldrinks";
-import Cart from "./cart";
+import Home from "./home.jsx";
+import Veg from "./veg.jsx";
+import Nonveg from "./nonveg.jsx";
+import Cooldrinks from "./cooldrinks.jsx";
+import Cart from "./cart.jsx";
 
 function App() {
   // Get cart items from Redux
