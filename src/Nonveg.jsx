@@ -1,6 +1,5 @@
 import { useDispatch } from 'react-redux';
 import { addToCart } from './store';
-import './Veg.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function Nonveg() {
