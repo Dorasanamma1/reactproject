@@ -1,5 +1,5 @@
 import { useDispatch } from 'react-redux';
-import './Veg.css';
+
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { addToCart } from './store';
 
