@@ -3,7 +3,7 @@ import { addToCart } from './store';
 import './Veg.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-function cooldrinks() {
+function Cooldrinks() {
 
   let cooldrinks = [
     {
@@ -71,4 +71,4 @@ let dispatch=useDispatch();
   );
 }
 
-export default cooldrinks;
+export default Cooldrinks;

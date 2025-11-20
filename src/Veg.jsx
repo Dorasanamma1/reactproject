@@ -3,7 +3,7 @@ import './Veg.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { addToCart } from './store';
 
-function veg() {
+function Veg() {
   let vegitems = [
     {
       id: 1,
@@ -67,4 +67,4 @@ function veg() {
   );
 }
 
-export default veg;
+export default Veg;

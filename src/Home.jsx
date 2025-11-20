@@ -1,4 +1,4 @@
-function home()
+function Home()
 {
     return(
         <>
@@ -6,4 +6,4 @@ function home()
         </>
     )
 }
-export default home;
+export default Home;

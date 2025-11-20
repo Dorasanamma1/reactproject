@@ -1,4 +1,4 @@
-function cart()
+function Cart()
 {
     return(
         <>
@@ -7,4 +7,4 @@ function cart()
     )
 
 }
-export default cart;
+export default Cart;
